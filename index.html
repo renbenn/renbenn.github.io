@@ -9,29 +9,33 @@
     <link rel="stylesheet" href="/styles/main.css">
     <title>RennyBenni</title>
   </head>
-  <body>
+  <body id="body">
     <header>
       <div>
-        <p>Home</p>
+        <span>Home</span>
+        <button class="sideview-nav-button" id="navlist-button">
+          <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: px; height: 100%;"><g class="style-scope yt-icon"><path d="M21,6H3V5h18V6z M21,11H3v1h18V11z M21,17H3v1h18V17z" class="style-scope yt-icon"></path></g></svg>
+        </button>
       </div>
     </header>
+    <section class="sidebar" id="sidebar">
+      <div>
+        <a href="/" class="disabled fake-link sidebar-button">Home</a>
+        <a href="https://discord.gg/fb24fesfq8" class="sidebar-button sidebar-button-2" target="_blank">Discord</a>
+        <a href="/socials/" class="sidebar-button sidebar-button-3">Socials</a>
+      </div>
+    </section>
     <section>
       <div>
         <h1 class="page-header">RennyBenni</h1>
-        <div>
-          <h1>My socials</h1>
-          <!-- <iframe src="https://youtube.com/embed/none" frameborder="0" width=""></iframe> -->
-          <br><br>
-          <a class="default-btn" href="https://www.youtube.com/channel/UC6jFOq5tscKaZfpqZ1NGtYQ" target="_blank">Youtube</a>
-          <a class="default-btn" href="https://www.twitch.tv/rennybenni" target="_blank">Twitch</a>
-        </div>
-        <br><br><br>
+        <br>
         <div>
           <h1>My art</h1>
           <img class="main-art-display" src="/src/img/ren-art-1.png" alt="Ren Art">
           <img class="main-art-display" src="/src/img/pfp-ren-art.png" alt="">
         </div>
       </div>
-    </section
+    </section>
+    <script src="/src/scripts/main/index.js"></script>
   </body>
 </html>

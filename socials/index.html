@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="og:title" content="RennyBenni">
+    <meta name="og:description" content="Ren's official website for socials and updates">
+    <link rel="stylesheet" href="/styles/main.css">
+    <title>RennyBenni</title>
+  </head>
+  <body id="body">
+    <header>
+      <div>
+        <span>Socials</span>
+        <button class="sideview-nav-button" id="navlist-button">
+          <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: px; height: 100%;"><g class="style-scope yt-icon"><path d="M21,6H3V5h18V6z M21,11H3v1h18V11z M21,17H3v1h18V17z" class="style-scope yt-icon"></path></g></svg>
+        </button>
+      </div>
+    </header>
+    <section class="sidebar" id="sidebar">
+      <div>
+        <a href="/" class="disabled fake-link sidebar-button">Home</a>
+        <a href="https://discord.gg/fb24fesfq8" class="sidebar-button sidebar-button-2" target="_blank">Discord</a>
+        <a href="/socials/" class="sidebar-button sidebar-button-3">Socials</a>
+      </div>
+    </section>
+    <section class="section-main-undernav">
+      <div class="main-page-center">
+        <div id="youtube">
+          <div>
+            <h1>YouTube</h1>
+            <script src="https://apis.google.com/js/api.js"></script>
+            <p><span class="socials-yt-subcount" id="socials-yt-subCount"></span> Subscribers</p>
+            <p>My latest YouTube video:</p>
+          </div>
+          <div>
+            <div class="social-iframe-container-top margin-300">
+              <div class="social-iframe-container">
+                <iframe id="youtube-video-mostrecent-miniplayer" class="social-iframe" src="https://youtube.com/embed/0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" loading="lazy" allowfullscreen></iframe>
+              </div>
+            </div>
+            <br>
+          </div>
+          <div>
+            <a class="default-btn" href="https://www.youtube.com/channel/UC6jFOq5tscKaZfpqZ1NGtYQ?sub_confirmation=1" target="_blank" id="social-yt-subscribe-btn">Subscribe</a>
+            <a class="default-btn" href="https://www.youtube.com/channel/UC6jFOq5tscKaZfpqZ1NGtYQ" target="_blank" id="social-yt-viewchannel-btn">View Channel</a>
+          </div>
+        </div>
+        <br><br><br>
+        <div id="twitch">
+          <div>
+            <h1>Twitch</h1>
+            <p>My Twitch stream:</p>
+            <div>
+              <div class="social-iframe-container-top margin-300">
+                <div class="social-iframe-container">
+                  <div id="twitch-embed" class="social-iframe"></div>
+                  <script src="https://embed.twitch.tv/embed/v1.js"></script>
+                  <script type="text/javascript">
+                    new Twitch.Embed("twitch-embed", {
+                      width: "100%",
+                      height: "100%",
+                      channel: "rennybenni",
+                    });
+                  </script>
+                </div>
+              </div>
+              <br>
+            </div>
+          </div>
+          <div>
+            <a class="default-btn-purple default-btn" href="https://www.twitch.tv/rennybenni" target="_blank">View Channel</a>
+          </div>
+        </div>
+        <br><br>
+        <div id="social-others-main">
+          <div>
+            <h1>Other</h1>
+          </div>
+          <div>
+            <a href="https://www.tiktok.com/@rensstuff">TikTok</a> 
+            <span class="seperator">|</span>
+            <a href="https://www.instagram.com/rennybenni/">Instagram</a>
+            <span class="seperator">|</span>
+            <a href="https://www.pinterest.ca/rennyyybennyy/">Pinterest</a>
+            <span class="seperator">|</span>
+            <a href="https://www.reddit.com/user/rennybenni">Reddit</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <endpage></endpage>
+    <script src="/src/scripts/main/index.js"></script>
+  </body>
+</html>
