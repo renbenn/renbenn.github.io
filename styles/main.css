@@ -20,11 +20,11 @@
 }
 body {
   text-align: center;
-  background-color: rgba(9, 255, 0, 0.178);
+  background-color: #7b0dbf;
   margin: 0px;
 }
 header {
-  background-color: rgb(153, 255, 127);
+  background-color: #9629d9;
   position: sticky;
   top: -0px;
   padding: 17px;
@@ -82,7 +82,7 @@ endpage {
   border-radius: 50%;
 }
 .sidebar {
-  background-color: #c8fda9;
+  background-color: #974fc4;
   left: -260px;
   position: fixed;
   z-index: 1;
